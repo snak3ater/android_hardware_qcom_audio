@@ -18,6 +18,6 @@ LOCAL_SHARED_LIBRARIES := \
 
 LOCAL_SHARED_LIBRARIES += libdl
 
-LOCAL_CFLAGS += -fvisibility=hidden -fno-strict-aliasing
+LOCAL_CFLAGS += -fvisibility=hidden
 
 include $(BUILD_SHARED_LIBRARY)
